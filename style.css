@@ -1,0 +1,531 @@
+.conteiner-proggres-bar{
+	max-width: 600px;
+	padding-top: 300px;
+	margin:0 auto;
+}
+
+.b-progress-bar{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+	border: 5px solid #eee;
+	border-radius: 50%;
+	text-align: center;
+}
+
+
+.b-progress-bar span{
+	display: inline-block;
+	vertical-align: middle;
+	background-color: white;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	font-size: 4rem;
+  	line-height: 2.8;
+  	color: black;
+  	font-weight: bold;
+
+}
+
+.b-progress-bar div{
+	background-color: red;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 200px;
+	height: 20px;
+	transform-origin: 0 -10%;
+
+}
+.b-progress-bar.b-progress-bar2{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	background-color: #ffffff;
+}
+
+.b-progress-bar div:nth-child(1){
+	transform:rotate(-30deg)translate(-30%,-90%);
+}
+.b-progress-bar div:nth-child(2){
+	transform:rotate(-35deg)translate(-30%,-90%);
+}
+.b-progress-bar div:nth-child(3){
+	transform:rotate(-30deg)translate(-30%,-80%);
+}
+.b-progress-bar div:nth-child(4){
+	transform:rotate(-25deg)translate(-30%, -70%);
+}
+.b-progress-bar div:nth-child(5){
+	transform:rotate(-20deg)translate(-30%, -60%);
+}
+.b-progress-bar div:nth-child(6){
+	transform:rotate(-15deg)translate(-30%, -50%);
+}
+.b-progress-bar div:nth-child(7){
+	transform:rotate(-10deg)translate(-30%,-40%);
+}
+.b-progress-bar div:nth-child(8){
+	transform:rotate(-5deg)translate(-30%, -30%);
+}
+.b-progress-bar div:nth-child(9){
+	transform:rotate(0deg)translate(-29%,-20%);
+}
+.b-progress-bar div:nth-child(10){
+	transform:rotate(5deg)translate(-28%,0%);
+}
+.b-progress-bar div:nth-child(11){
+	transform:rotate(10deg)translate(-27%, 0%);
+}
+.b-progress-bar div:nth-child(12){
+	transform:rotate(15deg)translate(-26%,10%);
+}
+.b-progress-bar div:nth-child(13){
+	transform:rotate(20deg)translate(-25%,30%);
+}
+.b-progress-bar div:nth-child(14){
+	transform:rotate(25deg)translate(-24%,40%);
+}
+.b-progress-bar div:nth-child(15){
+	transform:rotate(30deg)translate(-23%,50%);
+}
+.b-progress-bar div:nth-child(16){
+	transform:rotate(35deg)translate(-22%,60%);
+}
+.b-progress-bar div:nth-child(17){
+	transform:rotate(40deg)translate(-22%,70%);
+}
+.b-progress-bar div:nth-child(18){
+	transform:rotate(45deg)translate(-19%,40%);
+}
+.b-progress-bar div:nth-child(19){
+	transform:rotate(35deg)translate(-18%,50%);
+}
+.b-progress-bar div:nth-child(20){
+	transform:rotate(40deg)translate(-16%,60%);
+}
+.b-progress-bar div:nth-child(21){
+	transform:rotate(45deg)translate(-16%,110%);
+}
+.b-progress-bar div:nth-child(22){
+	transform:rotate(50deg)translate(-14%,130%);
+}
+.b-progress-bar div:nth-child(23){
+	transform:rotate(55deg)translate(-11%,140%);
+}
+.b-progress-bar div:nth-child(24){
+	transform:rotate(60deg)translate(-9%,100%);
+}
+.b-progress-bar div:nth-child(25){
+	transform:rotate(63deg)translate(-5%,111%);
+}
+.b-progress-bar div:nth-child(26){
+	transform:rotate(66deg)translate(-5%,115%);
+}
+.b-progress-bar div:nth-child(27){
+	transform:rotate(69deg)translate(-2%,120%);
+}
+.b-progress-bar div:nth-child(28){
+	transform:rotate(72deg)translate(-2%,115%);
+}
+.b-progress-bar div:nth-child(29){
+	transform:rotate(75deg)translate(2%,115%);
+}
+.b-progress-bar div:nth-child(30){
+	transform:rotate(78deg)translate(2%,115%);
+}
+.b-progress-bar div:nth-child(31){
+	transform:rotate(81deg)translate(7%,115%);
+}
+.b-progress-bar div:nth-child(32){
+	transform:rotate(84deg)translate(7%,115%);
+}
+.b-progress-bar div:nth-child(33){
+	transform:rotate(87deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(35){
+	transform:rotate(90deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(36){
+	transform:rotate(93deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(37){
+	transform:rotate(96deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(38){
+	transform:rotate(99deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(39){
+	transform:rotate(102deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(40){
+	transform:rotate(105deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(41){
+	transform:rotate(108deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(42){
+	transform:rotate(111deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(43){
+	transform:rotate(114deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(44){
+	transform:rotate(117deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(45){
+	transform:rotate(120deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(46){
+	transform:rotate(123deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(47){
+	transform:rotate(126deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(48){
+	transform:rotate(129deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(49){
+	transform:rotate(132deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(50){
+	transform:rotate(135deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(51){
+	transform:rotate(138deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(52){
+	transform:rotate(141deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(53){
+	transform:rotate(135deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(54){
+	transform:rotate(138deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(55){
+	transform:rotate(141deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(56){
+	transform:rotate(144deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(57){
+	transform:rotate(147deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(58){
+	transform:rotate(150deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(59){
+	transform:rotate(153deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(60){
+	transform:rotate(156deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(61){
+	transform:rotate(159deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(62){
+	transform:rotate(162deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(63){
+	transform:rotate(165deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(64){
+	transform:rotate(168deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(65){
+	transform:rotate(171deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(66){
+	transform:rotate(174deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(67){
+	transform:rotate(177deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(68){
+	transform:rotate(180deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(69){
+	transform:rotate(183deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(70){
+	transform:rotate(186deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(71){
+	transform:rotate(189deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(72){
+	transform:rotate(191deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(73){
+	transform:rotate(194deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(74){
+	transform:rotate(197deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(75){
+	transform:rotate(200deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(76){
+	transform:rotate(203deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(77){
+	transform:rotate(206deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(78){
+	transform:rotate(209deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(79){
+	transform:rotate(211deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(80){
+	transform:rotate(114deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(81){
+	transform:rotate(117deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(82){
+	transform:rotate(220deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(83){
+	transform:rotate(223deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(84){
+	transform:rotate(226deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(85){
+	transform:rotate(229deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(86){
+	transform:rotate(232deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(87){
+	transform:rotate(235deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(88){
+	transform:rotate(238deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(89){
+	transform:rotate(241deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(90){
+	transform:rotate(244deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(91){
+	transform:rotate(247deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(92){
+	transform:rotate(250deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(93){
+	transform:rotate(253deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(94){
+	transform:rotate(256deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(95){
+	transform:rotate(259deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(96){
+	transform:rotate(262deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(97){
+	transform:rotate(265deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(98){
+	transform:rotate(268deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(99){
+	transform:rotate(271deg)translate(14%,115%);
+}
+.b-progress-bar div:nth-child(100){
+	transform:rotate(274deg)translate(14%,115%);
+}
+.eee{
+
+}
+.switch:checked{
+
+}
+.control{
+	margin-top: 40px;
+	float: right;
+}
+
+.ceks{
+
+}
+
+
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+	display:none;
+
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.text_switch{
+	margin: 10px 0 0 70px;
+}
+
+
+.check_animaishen{
+	margin-top: 40px;
+}
+.span_animation{
+	margin-top: 7px;
+	margin-left: 5px;
+}
+#main{
+	width: 120px;
+}
+
+@media (max-width: 1024px ){
+	.b-progress-bar span{
+		width: 550px;
+		height: 550px;
+	}
+	.b-progress-bar div{
+		width: 450px;
+		height: 69px;
+
+	}
+	.b-progress-bar{
+		width: 600px;
+		height: 600px;
+	}
+	.control{
+		float: none;
+		width: 100%;
+		margin-bottom: 50px;
+
+	}
+	#inputTextValue{
+		width: 30%;
+		height: 150px;
+		margin-top: 20px;
+		border-radius: 10%;
+		border: 5px solid #EEE;
+		font-size: 60pt;
+	}
+	#btn{
+		width: 50%;
+		height: 140px;
+		font-size: 50pt;
+		color:#fff;
+		background-color: #19A15F;
+		border-radius: 10%;
+		margin-left: 5%;
+
+
+	}
+	.switch{
+		width: 200px;
+		height: 100px;
+	}
+	.slider.round{
+		border-radius: 50px;
+	}
+	.slider:before{
+		width: 90px;
+		height: 90px;
+	}
+	input:checked + .slider:before {
+		-webkit-transform: translateX(96px);
+  -ms-transform: translateX(96px);
+  transform: translateX(96px);
+}
+.span_animation{
+	margin-left: 80%;
+	margin-top: 15px;
+}
+.span_animation{
+	font-size: 40pt;
+	 
+}
+}
