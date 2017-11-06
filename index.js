@@ -23,6 +23,7 @@ var atr = document.getElementsByClassName("ceks");
 if (!atr.checked && atr.value == null) {
 
 	c.style.animation = "1s linear 0s normal none infinite running rot";
+	c.style.WebkitAnimation = "1s linear 0s normal none infinite running rot";
 	a = atr.value = 5;
 	}
 
