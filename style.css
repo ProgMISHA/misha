@@ -36,11 +36,13 @@
 .b-progress-bar div{
 	background-color: #FDD94C;
 	position: absolute;
+	-webkit-position: absolute;
 	left: 50%;
 	top: 50%;
 	width: 200px;
 	height: 20px;
 	transform-origin: 0 -10%;
+	-webkit-transform-origin:0 -10%;
 
 }
 .b-progress-bar.b-progress-bar2{
